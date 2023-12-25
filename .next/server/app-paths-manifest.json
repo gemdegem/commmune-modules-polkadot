@@ -1,0 +1,5 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/modules/[...moduleName]/page": "app/modules/[...moduleName]/page.js",
+  "/modules/page": "app/modules/page.js"
+}

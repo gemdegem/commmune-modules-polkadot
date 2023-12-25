@@ -1,0 +1,40 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/modules/components/search-bar.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.search-bar_searchInput__YXvsm {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.search-bar_searchInput__YXvsm::-moz-placeholder {
+    color: rgb(117, 117, 117);
+}
+.search-bar_searchInput__YXvsm::placeholder {
+    color: rgb(117, 117, 117);
+}
+
+.search-bar_inputWrapper__LDBBt {
+    width: 100%;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/modules/modules.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.modules_content__QuKJB {
+  display: flex;
+  gap: 1vw;
+  padding: 1vw;
+}
+
+.modules_modulesList__EC_H1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 1vw;
+  padding: 0;
+}
+

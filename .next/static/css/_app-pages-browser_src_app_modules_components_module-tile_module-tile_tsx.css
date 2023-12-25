@@ -1,0 +1,93 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/modules/components/module-tile/module-tile.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+.module-tile_tileWrapper__ZvsG6 {
+    width: 24%;
+}
+
+.module-tile_moduleTile__Hr6yC {
+    list-style: none;
+    height: -moz-fit-content;
+    height: fit-content;
+    /* aspect-ratio: 16/9; */
+    display: grid;
+    grid-template-columns: 55% 40%;
+    -moz-column-gap: 5%;
+         column-gap: 5%;
+    grid-template-rows: 2vw 2vw 4vw 1.25vw;
+    row-gap: 0.5vw;
+    grid-template-areas: 
+    "name imageWrapper"
+    "address imageWrapper"
+    "description description"
+    "attributes attributes";
+    padding: 1vw;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.module-tile_name__4rQaq {
+    grid-area: name;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.module-tile_imageWrapper__nyflA {
+    grid-area: imageWrapper;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.module-tile_image__Wj8gR {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.module-tile_address__cyG6p {
+    grid-area: address;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.module-tile_description__GPp3V {
+    grid-area: description;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5vw;
+    line-height: normal;
+}
+.module-tile_attributes__Rgt_w {
+    grid-area: attributes;
+    display: flex;
+    gap: 0.5vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-gutter: stable;
+}
+.module-tile_attributes__Rgt_w::-webkit-scrollbar {
+    height: 0.2vw;
+}
+
+/* Track */
+.module-tile_attributes__Rgt_w::-webkit-scrollbar-track {
+    background: rgb(253, 224, 71); 
+}
+
+/* Handle */
+.module-tile_attributes__Rgt_w::-webkit-scrollbar-thumb {
+    background: black; 
+}
+
+/* Handle on hover */
+.module-tile_attributes__Rgt_w::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.module-tile_attribute__eGq_c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.25vw;
+}
+
