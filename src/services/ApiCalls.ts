@@ -52,7 +52,7 @@ export const postRequest = async (selectedAccount: InjectedAccountWithMeta | nul
         const finalData = nestedData.data;
         console.log("Final Data:", finalData);
 
-        callback(finalData); // Wywołanie callback z danymi
+        callback(finalData);
       }
     } else {
       throw new Error("The method signRaw is not available on the signer");
